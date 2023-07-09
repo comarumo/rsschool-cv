@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Roboto, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.img {
+  text-align: center;
+}
+
+.ava {
+  border: 3px solid #a48431;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.code {
+  padding: 20px;
+  border: 1px solid #a48431;
+}
+
+.rss {
+  width: 150px;
+}
+
+li {
+  font-weight: 100;
+}
+
+footer {
+  background-color: #c4b7bb;
+}
